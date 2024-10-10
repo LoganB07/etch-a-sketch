@@ -1,6 +1,6 @@
-* {
-    /*border: solid red 2px;*/
-}
+/* * {
+    border: solid red 2px;
+} */
 
 body {
     margin: 0;
@@ -55,10 +55,17 @@ button {
     background-color: rgb(37, 37, 37);
 }
 
-#sketch-area {
+.sketch-area {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     flex: 1;
     max-width: 496px;
     height: 496px;
+    background-color: white;
+}
+
+.pixel {
+    display: flex;
     background-color: white;
 }
