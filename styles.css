@@ -1,0 +1,64 @@
+* {
+    /*border: solid red 2px;*/
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 25%;
+    background-color: rgb(70, 69, 69);
+    color: white;
+}
+
+#header, #footer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: black;
+}
+
+.header-box, .footer-box{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RGB-text, .grid-size-text {
+    text-align: center;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+#sketch-area {
+    display: flex;
+    flex: 1;
+    max-width: 496px;
+    height: 496px;
+    background-color: white;
+}
